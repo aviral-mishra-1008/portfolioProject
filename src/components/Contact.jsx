@@ -43,7 +43,6 @@ function Contact() {
             "
         >
             <div className="container mx-auto px-4 grid md:grid-cols-2 gap-8">
-                {/* Contact Details */}
                 <div
                     className="
                         bg-black
@@ -61,7 +60,6 @@ function Contact() {
                         Contact Me
                     </h2>
 
-                    {/* Name */}
                     <div className="flex items-center space-x-4">
                         <FaMapMarkerAlt className="text-2xl text-red-500" />
                         <div>
@@ -70,7 +68,6 @@ function Contact() {
                         </div>
                     </div>
 
-                    {/* Phone */}
                     <div className="flex items-center space-x-4">
                         <FaPhone className="text-2xl text-red-500" />
                         <div className="flex-grow">
@@ -91,7 +88,6 @@ function Contact() {
                         </button>
                     </div>
 
-                    {/* Work Email */}
                     <div className="flex items-center space-x-4">
                         <FaEnvelope className="text-2xl text-red-500" />
                         <div className="flex-grow">
@@ -112,7 +108,6 @@ function Contact() {
                         </button>
                     </div>
 
-                    {/* Home Email */}
                     <div className="flex items-center space-x-4">
                         <FaEnvelope className="text-2xl text-red-500" />
                         <div className="flex-grow">
@@ -135,7 +130,6 @@ function Contact() {
                 </div>
 
 
-                {/* Map Container */}
                 <div className="w-full h-[600px] rounded-xl overflow-hidden hover:translate-y-1.5 shadow-lg">
                     <iframe
                         src={contactDetails.mapsEmbedUrl}

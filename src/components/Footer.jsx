@@ -45,7 +45,6 @@ function Footer() {
         >
 
             <div className="container mx-auto flex justify-evenly items-center">
-                {/* Personal Branding */}
                 <div>
                     <h3 className="text-2xl font-bold mb-4">
                         Have A Nice Day
@@ -85,7 +84,6 @@ function Footer() {
                     </ul>
                 </div>
 
-                {/* Social Media */}
                 <div>
                     <h4 className="text-xl font-semibold mb-4">
                         Connect With Me
@@ -111,9 +109,7 @@ function Footer() {
                 </div>
             </div>
 
-            {/* Motto and Copyright */}
             <div className="text-center mt-8 pt-8 border-t border-gray-800">
-                {/* Motto Section */}
                 <div className="flex justify-center space-x-8 mb-4">
                     {['Hardwork','|', 'Passion', '|','Life'].map((motto, index) => (
                         <span
@@ -131,7 +127,6 @@ function Footer() {
                     ))}
                 </div>
 
-                {/* Copyright and Made with Love */}
                 <p className="text-gray-500 flex justify-center items-center space-x-2">
                     <span>© {currentYear} Aviral Mishra. All Rights Reserved.</span>
                     <span className="mx-2">•</span>

@@ -1,4 +1,4 @@
-import profileImage from '../assets/profile.png'  // Replace with your profile pic
+import profileImage from '../assets/profile.png'
 
 function About() {
     return (
@@ -23,7 +23,6 @@ function About() {
                     />
                 </div>
 
-                {/* About Content */}
                 <div className="w-full md:w-2/3 text-center md:text-left">
                     <h2 className="text-3xl font-bold mb-4 text-white">
                         About Me

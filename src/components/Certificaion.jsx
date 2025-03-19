@@ -89,7 +89,6 @@ function Certifications() {
                                 />
                             </div>
 
-                            {/* Certification Details */}
                             <div className="text-center mt-8">
                                 <h3 className="text-xl font-semibold text-white mb-2">
                                     {cert.title}
@@ -98,7 +97,6 @@ function Certifications() {
                                     {cert.issuer}
                                 </p>
 
-                                {/* Date and Credential */}
                                 <div className="mb-4">
                                     <p className="text-gray-300 text-sm">
                                         {cert.date}
@@ -110,7 +108,6 @@ function Certifications() {
                                     )}
                                 </div>
 
-                                {/* Skills */}
                                 <div className="flex flex-wrap gap-2 justify-center mb-4">
                                     {cert.skills.map((skill, skillIndex) => (
                                         <span

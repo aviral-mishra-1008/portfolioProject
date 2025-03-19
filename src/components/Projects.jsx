@@ -25,7 +25,7 @@ function Projects() {
                 "Dummy point 3",
                 "Dummy point 4"
             ],
-            githubLink: "https://github.com/aviral-mishra-1008/Sushrut"
+            githubLink: "#"
         },
         {
             title: "Netra Attendance System",
@@ -74,7 +74,6 @@ function Projects() {
                                 {project.title}
                             </h3>
 
-                            {/* Technologies */}
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {project.technologies.map((tech, techIndex) => (
                                     <span
@@ -93,14 +92,12 @@ function Projects() {
                                 ))}
                             </div>
 
-                            {/* Description */}
                             <ul className="text-gray-300 space-y-2 mb-6 list-disc list-inside">
                                 {project.description.map((point, pointIndex) => (
                                     <li key={pointIndex}>{point}</li>
                                 ))}
                             </ul>
 
-                            {/* GitHub Link */}
                             <a
                                 href={project.githubLink}
                                 target="_blank"

@@ -106,7 +106,6 @@ function Experience() {
                         key={index}
                         className={`experience-item flex items-center mb-16 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}
                     >
-                        {/* Image Section (Adaptive) */}
                         <div className={`w-full lg:w-1/3 p-2 ${index % 2 === 0 ? 'lg:pr-8' : 'lg:pl-8'}`}>
                             <img
                                 src={exp.logo}
@@ -116,7 +115,6 @@ function Experience() {
                             />
                         </div>
 
-                        {/* Content Section (Reveal Effect) */}
                         <div className={`w-full lg:w-2/3 p-6 text-white ${imageLoaded ? 'opacity-100 transition-opacity duration-1000' : 'opacity-0'}`}>
                             <div className="flex justify-between items-center mb-4">
                                 <div>

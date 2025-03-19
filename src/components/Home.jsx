@@ -1,5 +1,5 @@
 import backgroundImage from "../assets/obg.jpeg";
-import linkedinLogo from "../assets/linkedin.webp"; // Replace with your actual paths
+import linkedinLogo from "../assets/linkedin.webp";
 import githubLogo from "../assets/github.png";
 import leetcodeLogo from "../assets/leetcode.webp";
 
